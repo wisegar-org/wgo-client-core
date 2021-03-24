@@ -1,0 +1,1 @@
+# wgo-client-core
