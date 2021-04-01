@@ -102,7 +102,7 @@ export class ApiService {
     };
   }
 
-  public static GetInstance(options: ApiServiceOptions): ApiService {
+  public static GetInstance(options?: ApiServiceOptions): ApiService {
     if (!ApiService.instance && options) {
       ApiService.instance = new ApiService(options);
     }
